@@ -3,12 +3,23 @@
 }
 
 header {
-display: flexborder: solid 1px
-padding: 0px
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    padding: 1px;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 100%
 }
-header .links {
-    align-self: 
+.links {
+ align-self: center;
+ font-size: 18px;
+ color: #E5E7EB;
+ display: flex;
+ gap: 20px;
 }
+
 /* This is the main page layout space */
 .mainpage {
 
@@ -20,9 +31,9 @@ h1 {
 
 /* h3 also is used in the small panel */
 h3 {
-  
+  font-size: 24px;
+  color: #F9FAF8;
 }
-
 /* This is the central layout space */
 .central {
  
