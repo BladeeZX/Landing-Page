@@ -1,2 +1,2 @@
 # Landing-Page
-Mandem on dat Landing Page ting
+Im gonna revisit it later I swear
