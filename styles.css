@@ -1,17 +1,25 @@
 * {
     font-family: 'Roboto', Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    margin: 0; 
+    overflow-x: hidden;
 }
 
 header {
     display: flex;
     flex-direction: row;
-
     padding-left: 10px;
     padding-right: 10px;
     flex: 1 1 auto;
     justify-content: space-between;
     background-color: #1F2937;
-    height: 100%
+    height: 100%;
+    margin: 0;
 }
 .links {
  align-self: center;
@@ -27,7 +35,9 @@ display: flex;
 flex-direction: column;
 background-color: #1F2937;
 color: #E5E7EB;
-padding: 30px;
+padding: 10px 0;
+flex-grow: 1;
+padding: 30px 0;
 }
 
 h1 {
@@ -50,11 +60,11 @@ align-self: flex-start;
 
 .imagecontainer {
     display: flex;
-    justify-content: flex-end; /* Center the image to the right */
+    justify-content: flex-end; 
     align-items: center;
 }
 
-.imageheader {
+.imageheader { /*visit it later*/
     max-width: auto;
     max-height: 200px;
 }
@@ -65,28 +75,33 @@ h3 {
 }
 /* This is the central layout space */
 .central {
- 
+ display: flex;
 }
 
-ul {
-   
+.list {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
 }
 
 h2 {
-  
+  align-self: center;
 }
 
 /* This is the quotepanel space */
 .quotepanel {
-   
-}
-
-.quote {
-  
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #E5E7EB;
+    padding: 20px;
+    margin: 0;
 }
 
 .quotemaker {
- 
+ align-self: flex-end;
 }
 
 /* This is a smallpanel space */
