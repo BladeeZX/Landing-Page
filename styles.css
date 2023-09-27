@@ -74,18 +74,21 @@ h3 {
   color: #F9FAF8;
 }
 /* This is the central layout space */
-.central {
- display: flex;
-}
-
-.list {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-}
 
 h2 {
-  align-self: center;
+    text-align: center;
+    }
+
+    .list {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-grow: 1;
+}
+
+ul { /*list*/
+    list-style-type: none;
+    padding: 0;
 }
 
 /* This is the quotepanel space */
@@ -111,10 +114,24 @@ h2 {
 
 
 button {
-    border-radius: 15px
+    border-radius: 30px;
+    height: auto;
+    width: 100px;
+    background-color: #3882f6;
+    color: #E5E7EB;
 }
 
 /* Footer */
 footer {
- 
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
 }
