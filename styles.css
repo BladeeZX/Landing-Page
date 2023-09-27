@@ -2,7 +2,14 @@
     font-family: 'Roboto', Verdana, sans-serif;
 }
 
-/*This is the main page layout space*/
+header {
+display: flexborder: solid 1px
+padding: 0px
+}
+header .links {
+    align-self: 
+}
+/* This is the main page layout space */
 .mainpage {
 
 }
@@ -11,47 +18,43 @@ h1 {
 
 }
 
-/*h3 also is used in small panel*/
+/* h3 also is used in the small panel */
 h3 {
-
+  
 }
 
-/*This is the central layout space*/
-
+/* This is the central layout space */
 .central {
-
+ 
 }
 
 ul {
-
+   
 }
 
 h2 {
-
+  
 }
 
-/*This is the quotepanel space*/
-
+/* This is the quotepanel space */
 .quotepanel {
-
+   
 }
 
 .quote {
-
+  
 }
 
 .quotemaker {
-
+ 
 }
 
-/*This is a smallpanel space*/
-
+/* This is a smallpanel space */
 .smallpanel {
-
+    
 }
 
-/*Footer*/
-
+/* Footer */
 footer {
-    
+ 
 }
